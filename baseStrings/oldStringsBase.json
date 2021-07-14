@@ -14,7 +14,13 @@
         "old_pdf": ">PDF<",
         "old_visualizar": ">Visualizar<",
         "old_gerarOrcamentoPedido": ">GERAR ORÇAMENTO / PEDIDO<",
-        "old_voltar": ">VOLTAR<"
+        "old_voltar": ">VOLTAR<",
+        "old_id": ">ID<",
+        "old_cliente": ">Cliente<",
+        "old_quantidade": ">Quantidade<",
+        "old_situacao": ">Situação<",
+        "old_dataDevolucao": ">Data de Devolucao<",
+        "old_dataTablesPath": "\"../scripts/Portuguese-Brasil.json\""
     },
     "doubleQuoted": {
         "inHTML": {
