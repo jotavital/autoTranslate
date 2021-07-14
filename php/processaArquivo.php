@@ -18,11 +18,12 @@ if(is_writable($dir)){
 }
 
 //cria arquivo ini
+$nomeArquivoIni = "pt-br_" . $nomeArquivo[0] . ".ini";
 
-if (file_put_contents($dir . "pt-br_" . $nomeArquivo[0] . ".ini", FILE_APPEND) != false) {
-    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo .ini criado com sucesso!</p>";
+if (file_put_contents($dir . $nomeArquivoIni, FILE_APPEND) != false) {
+    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoIni . " criado com sucesso!</p>";
 } else {
-    $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao criar arquivo .ini!</p>";
+    $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao criar arquivo ". $nomeArquivoIni . "!</p>";
 }
 
 //substitui as palavras pelas label no arquivo destino
