@@ -106,10 +106,14 @@ $pastaAdmin = __DIR__ . "/../../applications/system/admin/";
 
 if(is_writable($pastaAdmin)){
     $_SESSION['msg'] .= "<br>O diretório admin tem as permissões necessárias!";
-    file_put_contents($caminhoArquivo, $textoDoArquivo);
 }else{
     $_SESSION['msg'] .= "<br>O diretório admin NÃO tem as permissões necessárias!";
 }
 
+if(file_put_contents($caminhoArquivo, $textoDoArquivo) != false){
+    $_SESSION['msg'] .= "<br>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso!";
+}else{
+    $_SESSION['msg'] .= "<br>Erro ao escrever no arquivo " . $nomeArquivoComExtensao . "!";
+}
 
 header("Location: index.php");
