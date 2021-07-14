@@ -13,7 +13,7 @@ session_start();
     <title>AutoTranslate</title>
 </head>
 <body>
-    <h1>Substituidor de palavras</h1>
+    <h1>Assistente de troca de palavras</h1>
 
     <form action="processaArquivo.php" method="POST">
         <label for="nomeArquivoInput">Nome do arquivo com extensão .php</label>
