@@ -1,0 +1,32 @@
+{
+    "simpleLabel": {
+        "new_home": "> <?= L::home ?><",
+        "new_buscar": "><?= L::buscar ?><",
+        "new_produto": "><?= L::produto ?><",
+        "new_todos": "><?= L::todos ?><",
+        "new_status": "><?= L::status ?><",
+        "new_entrega": "><?= L::entrega ?><",
+        "new_devolucao": "><?= L::devolucao ?><",
+        "new_pesquisar": "><?= L::pesquisar ?><",
+        "new_aoDia": "> <?= strtolower(L::aoDia) ?> <",
+        "new_fornecedor": "><?= L::fornecedor ?><",
+        "new_dataEntrega": "><?= L::dataEntrega ?><",
+        "new_pdf": "><?= strtoupper(L::pdf) ?><",
+        "new_visualizar": "><?= L::visualizar ?><",
+        "new_gerarOrcamentoPedido": "><?= mb_strtoupper(L::gerarOrcamento) ?> / <?= strtoupper(L::pedido) ?><",
+        "new_voltar": "><?= strtoupper(L::voltar) ?><"
+    },
+    "doubleQuoted": {
+        "inHTML": {
+            "new_minimizar": "title=\"<?= L::minimizar ?>\"",
+            "new_fechar": "title=\"<?= L::fechar ?>\"",
+            "new_buscarProdutos": "placeholder=\"<?= L::buscarProdutos ?>\"",
+            "new_entrega": "placeholder=\"<?= L::entrega ?>\"",
+            "new_devolucao": "placeholder=\"<?= L::devolucao ?>\""
+        },
+        "inPHP": {
+            "new_orcamento": "L::orcamento",
+            "new_locacao": "L::locacao"
+        }
+    }
+}
