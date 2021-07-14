@@ -12,17 +12,17 @@ $nomeArquivo = explode(".php", $_POST['nomeArquivo']);
 //verifica permissoes da pasta
 
 if(is_writable($dir)){
-    $_SESSION['msg'] = "O diretório tem as permissões necessárias!";
+    $_SESSION['msg'] = "<br>O diretório tem as permissões necessárias!";
 }else{
-    $_SESSION['msg'] = "O diretório NÃO tem as permissões necessárias!";
+    $_SESSION['msg'] = "<br>O diretório NÃO tem as permissões necessárias!";
 }
 
 //cria arquivo ini
 
 if (file_put_contents($dir . "pt-br_" . $nomeArquivo[0] . ".ini", FILE_APPEND) != false) {
-    $_SESSION['msg'] .= "Arquivo .ini criado com sucesso!";
+    $_SESSION['msg'] .= "<br>Arquivo .ini criado com sucesso!";
 } else {
-    $_SESSION['msg'] .= "Erro ao criar arquivo .ini!";
+    $_SESSION['msg'] .= "<br>Erro ao criar arquivo .ini!";
 }
 
 //substitui as palavras pelas label no arquivo destino
