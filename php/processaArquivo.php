@@ -12,9 +12,9 @@ $nomeArquivo = explode(".php", $_POST['nomeArquivo']);
 //verifica permissoes da pasta
 
 if(is_writable($dir)){
-    $_SESSION['msg'] = "<br>O diretório tem as permissões necessárias!";
+    $_SESSION['msg'] = "<br>O diretório lang tem as permissões necessárias!";
 }else{
-    $_SESSION['msg'] = "<br>O diretório NÃO tem as permissões necessárias!";
+    $_SESSION['msg'] = "<br>O diretório lang NÃO tem as permissões necessárias!";
 }
 
 //cria arquivo ini
@@ -102,6 +102,12 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
     }
 }
 
-file_put_contents($caminhoArquivo, $textoDoArquivo);
+if(is_writable($caminhoArquivo)){
+    $_SESSION['msg'] = "<br>O diretório admin tem as permissões necessárias!";
+    file_put_contents($caminhoArquivo, $textoDoArquivo);
+}else{
+    $_SESSION['msg'] = "<br>O diretório admin NÃO tem as permissões necessárias!";
+}
+
 
 header("Location: index.php");
