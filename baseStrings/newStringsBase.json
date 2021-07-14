@@ -15,12 +15,12 @@
         "new_visualizar": "><?= L::visualizar ?><",
         "new_gerarOrcamentoPedido": "><?= mb_strtoupper(L::gerarOrcamento) ?> / <?= strtoupper(L::pedido) ?><",
         "new_voltar": "><?= strtoupper(L::voltar) ?><",
-        "old_id": "><?= strtoupper(L::id) ?><",
-        "old_cliente": "><?= L::cliente ?><",
-        "old_quantidade": "><?= L::quantidade ?><",
-        "old_situacao": "><?= L::situacao ?><",
-        "old_dataDevolucao": "><?= L::dataDevolucao ?><",
-        "old_dataTablesPath": "\"../lang/<?= traducaoSistema()['path'];?>_dataTable.json\""
+        "new_id": "><?= strtoupper(L::id) ?><",
+        "new_cliente": "><?= L::cliente ?><",
+        "new_quantidade": "><?= L::quantidade ?><",
+        "new_situacao": "><?= L::situacao ?><",
+        "new_dataDevolucao": "><?= L::dataDevolucao ?><",
+        "new_dataTablesPath": "\"../lang/<?= traducaoSistema()['path'];?>_dataTable.json\""
     },
     "doubleQuoted": {
         "inHTML": {
