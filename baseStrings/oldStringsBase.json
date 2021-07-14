@@ -1,0 +1,32 @@
+{
+    "simpleLabel": {
+        "old_home": "</i> Home</a>",
+        "old_buscar": ">Buscar<",
+        "old_produto": ">Produto<",
+        "old_todos": ">Todos<",
+        "old_status": ">Status<",
+        "old_entrega": ">Entrega<",
+        "old_devolucao": ">Devolução<",
+        "old_pesquisar": ">Pesquisar<",
+        "old_aoDia": "> ao dia <",
+        "old_fornecedor": ">Fornecedor<",
+        "old_dataEntrega": ">Data de Entrega<",
+        "old_pdf": ">PDF<",
+        "old_visualizar": ">Visualizar<",
+        "old_gerarOrcamentoPedido": ">GERAR ORÇAMENTO / PEDIDO<",
+        "old_voltar": ">VOLTAR<"
+    },
+    "doubleQuoted": {
+        "inHTML": {
+            "old_minimizar": "title=\"Minimizar\"",
+            "old_fechar": "title=\"Fechar\"",
+            "old_buscarProdutos": "placeholder=\"Buscar Produtos\"",
+            "old_entrega": "placeholder=\"Entrega\"",
+            "old_devolucao": "placeholder=\"Devolução\""
+        },
+        "inPHP": {
+            "old_orcamento": "\"Orçamento\"",
+            "old_locacao": "\"Locação\""
+        }
+    }
+}
