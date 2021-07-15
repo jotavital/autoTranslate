@@ -37,7 +37,14 @@
         "old_setembro": ">Setembro<",
         "old_outubro": ">Outubro<",
         "old_novembro": ">Novembro<",
-        "old_dezembro": ">Dezembro<"
+        "old_dezembro": ">Dezembro<",
+        "old_formato": ">Formato <",
+        "old_excelXls": ">Excel (xls)<",
+        "old_ordenarPor": ">Ordenar Por<",
+        "old_menorFaturamento": ">Menor Faturamento<",
+        "old_maiorFaturamento": ">Maior Faturamento<",
+        "old_gerar": ">Gerar<",
+        "old_gerarRelatorio": ">Gerar Relatório<"
     },
     "doubleQuoted": {
         "inHTML": {

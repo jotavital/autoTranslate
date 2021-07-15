@@ -37,7 +37,14 @@
         "new_setembro": "><?= L::setembro ?><",
         "new_outubro": "><?= L::outubro ?><",
         "new_novembro": "><?= L::novembro ?><",
-        "new_dezembro": "><?= L::dezembro ?><"
+        "new_dezembro": "><?= L::dezembro ?><",
+        "new_formato": "><?= L::formato ?> <",
+        "new_excelXls": "><?= L::excel ?> (<?= strtolower(L::xls) ?>)<",
+        "new_ordenarPor": "><?= L::ordenarPor ?><",
+        "new_menorFaturamento": "><?= L::menorFaturamento ?><",
+        "new_maiorFaturamento": "><?= L::maiorFaturamento ?><",
+        "new_gerar": "><?= L::gerar ?><",
+        "new_gerarRelatorio": "><?= L::gerarRelatorio ?><"
     },
     "doubleQuoted": {
         "inHTML": {
