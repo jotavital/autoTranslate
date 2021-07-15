@@ -44,7 +44,14 @@
         "new_menorFaturamento": "><?= L::menorFaturamento ?><",
         "new_maiorFaturamento": "><?= L::maiorFaturamento ?><",
         "new_gerar": "><?= L::gerar ?><",
-        "new_gerarRelatorio": "><?= L::gerarRelatorio ?><"
+        "new_gerarRelatorio": "><?= L::gerarRelatorio ?><",
+        "new_foto": "><?= L::foto ?><",
+        "new_selecione": "><?= L::selecione ?><",
+        "new_ano": "><?= L::ano ?><",
+        "new_codigo": "><?= L::codigo ?><",
+        "new_nomeDoProduto": "><?= L::nomeDoProduto ?><",
+        "new_valorUnitario": "><?= L::valorUnitario ?><",
+        "new_cancelar": "><?= L::cancelar ?><"
     },
     "doubleQuoted": {
         "inHTML": {

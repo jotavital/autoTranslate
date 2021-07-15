@@ -44,7 +44,14 @@
         "old_menorFaturamento": ">Menor Faturamento<",
         "old_maiorFaturamento": ">Maior Faturamento<",
         "old_gerar": ">Gerar<",
-        "old_gerarRelatorio": ">Gerar Relatório<"
+        "old_gerarRelatorio": ">Gerar Relatório<",
+        "old_foto": ">Foto<",
+        "old_selecione": ">Selecione<",
+        "old_ano": ">Ano<",
+        "old_codigo": ">Código<",
+        "old_nomeDoProduto": ">Nome do Produto<",
+        "old_valorUnitario": ">Valor Unitário<",
+        "old_cancelar": ">Cancelar<"
     },
     "doubleQuoted": {
         "inHTML": {
