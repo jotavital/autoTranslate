@@ -58,7 +58,10 @@
             "new_orcamento": "L::orcamento",
             "new_locacao": "L::locacao",
             "new_erro": "echo L::erro . \"!: \" . $e->getMessage() . \"<br>\";",
-            "new_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>\" . L::dadosNaoEncontrados . \".</h3>\";"
+            "new_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>\" . L::dadosNaoEncontrados . \".</h3>\";",
+            "new_telefone": "L::telefone . \": \"",
+            "new_dataEmissao": "L::dataEmissao . \":",
+            "new_categoria": "L::categoria"
         }
     }
 }

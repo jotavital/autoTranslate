@@ -58,7 +58,10 @@
             "old_orcamento": "\"Orçamento\"",
             "old_locacao": "\"Locação\"",
             "old_erro": "echo \"Erro!: \" . $e->getMessage() . \"<br>\";",
-            "old_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>Dados não encontrados.</h3>\";"
+            "old_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>Dados não encontrados.</h3>\";",
+            "old_telefone": "\"Telefone: \"",
+            "old_dataEmissao": "\"Data de Emissão:",
+            "old_categoria": "\"Categoria\""
         }
     }
 }
