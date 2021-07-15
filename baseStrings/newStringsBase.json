@@ -74,7 +74,19 @@
             "new_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>\" . L::dadosNaoEncontrados . \".</h3>\";",
             "new_telefone": "L::telefone . \": \"",
             "new_dataEmissao": "L::dataEmissao . \":",
-            "new_categoria": "L::categoria"
+            "new_categoria": "L::categoria",
+            "new_janeiro": "L::janeiro;",
+            "new_fevereiro": "L::fevereiro;",
+            "new_marco": "L::marco;",
+            "new_abril": "L::abril;",
+            "new_maio": "L::maio;",
+            "new_junho": "L::junho;",
+            "new_julho": "L::julho;",
+            "new_agosto": "L::agosto;",
+            "new_setembro": "L::setembro;",
+            "new_outubro": "L::outubro;",
+            "new_novembro": "L::novembro;",
+            "new_dezembro": "L::dezembro;"
         }
     }
 }

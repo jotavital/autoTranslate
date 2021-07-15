@@ -74,7 +74,19 @@
             "old_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>Dados não encontrados.</h3>\";",
             "old_telefone": "\"Telefone: \"",
             "old_dataEmissao": "\"Data de Emissão:",
-            "old_categoria": "\"Categoria\""
+            "old_categoria": "\"Categoria\"",
+            "old_janeiro": "'Janeiro';",
+            "old_fevereiro": "'Fevereiro';",
+            "old_marco": "'Março';",
+            "old_abril": "'Abril';",
+            "old_maio": "'Maio';",
+            "old_junho": "'Junho';",
+            "old_julho": "'Julho';",
+            "old_agosto": "'Agosto';",
+            "old_setembro": "'Setembro';",
+            "old_outubro": "'Outubro';",
+            "old_novembro": "'Novembro';",
+            "old_dezembro": "'Dezembro';"
         }
     }
 }
