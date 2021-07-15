@@ -56,7 +56,8 @@
         "new_selecione3pontos": "><?= L::selecione ?>...<",
         "new_filtrarPor": "><?= L::filtrarPor ?><",
         "new_dataCriacaoOrcamento": "><?= L::dataDeCriacaoDoOrcamento ?><",
-        "new_dataConversaoContrato": "><?= L::dataDeConversaoParaContrato ?><"
+        "new_dataConversaoContrato": "><?= L::dataDeConversaoParaContrato ?><",
+        "new_nome": "><?= L::nome ?><"
     },
     "doubleQuoted": {
         "inHTML": {

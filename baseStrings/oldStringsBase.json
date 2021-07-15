@@ -56,7 +56,8 @@
         "old_selecione3pontos": ">Selecione...<",
         "old_filtrarPor": ">Filtrar por<",
         "old_dataCriacaoOrcamento": ">Data de criação do orçamento<",
-        "old_dataConversaoContrato": ">Data de conversão para contrato<"
+        "old_dataConversaoContrato": ">Data de conversão para contrato<",
+        "old_nome": ">Nome<"
     },
     "doubleQuoted": {
         "inHTML": {
