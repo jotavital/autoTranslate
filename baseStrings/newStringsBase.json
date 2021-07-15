@@ -86,7 +86,13 @@
             "new_setembro": "L::setembro;",
             "new_outubro": "L::outubro;",
             "new_novembro": "L::novembro;",
-            "new_dezembro": "L::dezembro;"
+            "new_dezembro": "L::dezembro;",
+            "new_idPed": "L::idPed,",
+            "new_emissao": "(L::emissao)",
+            "new_cliente": "L::cliente,",
+            "new_formaDePagamento": "L::formaDePagamento,",
+            "new_valor": "L::valor,",
+            "new_frete": "L::frete,"
         }
     }
 }
