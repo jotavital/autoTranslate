@@ -21,7 +21,23 @@
         "new_situacao": "><?= L::situacao ?><",
         "new_dataDevolucao": "><?= L::dataDevolucao ?><",
         "new_dataTablesPath": "\"../lang/<?= traducaoSistema()['path'];?>_dataTable.json\"",
-        "new_categoria": "><?= L::categoria ?><"
+        "new_categoria": "><?= L::categoria ?><",
+        "new_informeOsDadosAbaixo": "><?= L::informeOsDadosAbaixo ?><",
+        "new_categorias": "><?= L::categorias ?><",
+        "new_todas": "><?= L::todas ?><",
+        "new_mes": "><?= L::mes ?><",
+        "new_janeiro": "><?= L::janeiro ?><",
+        "new_fevereiro": "><?= L::fevereiro ?><",
+        "new_marco": "><?= L::marco ?><",
+        "new_abril": "><?= L::abril ?><",
+        "new_maio": "><?= L::maio ?><",
+        "new_junho": "><?= L::junho ?><",
+        "new_julho": "><?= L::julho ?><",
+        "new_agosto": "><?= L::agosto ?><",
+        "new_setembro": "><?= L::setembro ?><",
+        "new_outubro": "><?= L::outubro ?><",
+        "new_novembro": "><?= L::novembro ?><",
+        "new_dezembro": "><?= L::dezembro ?><"
     },
     "doubleQuoted": {
         "inHTML": {
