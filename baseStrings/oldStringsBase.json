@@ -20,7 +20,8 @@
         "old_quantidade": ">Quantidade<",
         "old_situacao": ">Situação<",
         "old_dataDevolucao": ">Data de Devolucao<",
-        "old_dataTablesPath": "\"../scripts/Portuguese-Brasil.json\""
+        "old_dataTablesPath": "\"../scripts/Portuguese-Brasil.json\"",
+        "old_categoria": ">Categoria<"
     },
     "doubleQuoted": {
         "inHTML": {

@@ -20,7 +20,8 @@
         "new_quantidade": "><?= L::quantidade ?><",
         "new_situacao": "><?= L::situacao ?><",
         "new_dataDevolucao": "><?= L::dataDevolucao ?><",
-        "new_dataTablesPath": "\"../lang/<?= traducaoSistema()['path'];?>_dataTable.json\""
+        "new_dataTablesPath": "\"../lang/<?= traducaoSistema()['path'];?>_dataTable.json\"",
+        "new_categoria": "><?= L::categoria ?><"
     },
     "doubleQuoted": {
         "inHTML": {
