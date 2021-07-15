@@ -51,7 +51,12 @@
         "old_codigo": ">Código<",
         "old_nomeDoProduto": ">Nome do Produto<",
         "old_valorUnitario": ">Valor Unitário<",
-        "old_cancelar": ">Cancelar<"
+        "old_cancelar": ">Cancelar<",
+        "old_formaPagamento": ">Forma de Pagamento<",
+        "old_selecione3pontos": ">Selecione...<",
+        "old_filtrarPor": ">Filtrar por<",
+        "old_dataCriacaoOrcamento": ">Data de criação do orçamento<",
+        "old_dataConversaoContrato": ">Data de conversão para contrato<"
     },
     "doubleQuoted": {
         "inHTML": {
@@ -59,7 +64,8 @@
             "old_fechar": "title=\"Fechar\"",
             "old_buscarProdutos": "placeholder=\"Buscar Produtos\"",
             "old_entrega": "placeholder=\"Entrega\"",
-            "old_devolucao": "placeholder=\"Devolução\""
+            "old_devolucao": "placeholder=\"Devolução\"",
+            "old_ano": "placeholder=\"Ano\""
         },
         "inPHP": {
             "old_orcamento": "\"Orçamento\"",
