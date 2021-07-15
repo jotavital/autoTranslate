@@ -32,7 +32,9 @@
         },
         "inPHP": {
             "new_orcamento": "L::orcamento",
-            "new_locacao": "L::locacao"
+            "new_locacao": "L::locacao",
+            "new_erro": "echo L::erro . \"!: \" . $e->getMessage() . \"<br>\";",
+            "new_dadosNaoEncontrados": "echo\"\\n<h3 class=\\sub-header\\>\" . L::dadosNaoEncontrados . \".</h3>\";"
         }
     }
 }
