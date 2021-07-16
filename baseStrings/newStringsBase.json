@@ -65,7 +65,16 @@
         "new_data": "><?= L::data ?><",
         "new_acao": "><?= L::acao ?><",
         "new_tipo": "><?= L::tipo ?><",
-        "new_sair": "><?= L::sair ?><"
+        "new_sair": "><?= L::sair ?><",
+        "new_tabela": "><?= L::tabela ?><",
+        "new_usuario": "><?= L::usuario ?><",
+        "new_sim": "><?= L::sim ?><",
+        "new_nao": "><?= L::nao ?><",
+        "new_dataCadastro": "><?= L::dataCadastro ?><",
+        "new_celular": "><?= L::celular ?><",
+        "new_telefone": "><?= L::telefone ?><",
+        "new_endereco": "><?= L::endereco ?><",
+        "new_email": "><?= L::email ?><"
     },
     "doubleQuoted": {
         "inHTML": {
@@ -103,7 +112,16 @@
             "new_valor": "L::valor,",
             "new_frete": "L::frete,",
             "new_produto": "L::produto,",
-            "new_totalMes": "(mb_strtoupper(L::totalMes))"
+            "new_totalMes": "(mb_strtoupper(L::totalMes))",
+            "new_id": ", strtoupper(L::id),",
+            "new_nome": ", L::nome,",
+            "new_cpfCnpj": ", strtoupper(L::cpf) . \"/\" . strtoupper(L::cnpj),",
+            "new_telefone2": ", L::telefone,",
+            "new_celular": ", L::celular,",
+            "new_endereco": "(L::endereco)",
+            "new_registroNaoEncontrado": "= L::registroNaoEncontrado . \"!\";",
+            "new_sim": "(L::sim)",
+            "new_nao": "(L::nao)"
         }
     }
 }

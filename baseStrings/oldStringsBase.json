@@ -65,7 +65,16 @@
         "old_data": ">Data<",
         "old_acao": ">Ação<",
         "old_tipo": ">Tipo<",
-        "old_sair": ">Sair<"
+        "old_sair": ">Sair<",
+        "old_tabela": ">Tabela<",
+        "old_usuario": ">Usuário<",
+        "old_sim": ">Sim<",
+        "old_nao": ">Não<",
+        "old_dataCadastro": ">Data de cadastro<",
+        "old_celular": ">Celular<",
+        "old_telefone": ">Telefone<",
+        "old_endereco": ">Endereço<",
+        "old_email": ">E-mail<"
     },
     "doubleQuoted": {
         "inHTML": {
@@ -103,7 +112,16 @@
             "old_valor": "\"Valor\",",
             "old_frete": "\"Frete\",",
             "old_produto": "\"Produto\",",
-            "old_totalMes": "(\"TOTAL MÊS\")"
+            "old_totalMes": "(\"TOTAL MÊS\")",
+            "old_id": ", \"ID\",",
+            "old_nome": ", \"Nome\",",
+            "old_cpfCnpj": ", \"CPF/CNPJ\",",
+            "old_telefone2": ", \"Telefone\",",
+            "old_celular": ", \"Celular\",",
+            "old_endereco": "(\"Endereço\")",
+            "old_registroNaoEncontrado": "=\"Registro não encontrado!\";",
+            "old_sim": "(\"Sim\")",
+            "old_nao": "(\"Não\")"
         }
     }
 }
