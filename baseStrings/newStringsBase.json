@@ -98,7 +98,7 @@
             "new_valor": "L::valor,",
             "new_frete": "L::frete,",
             "new_produto": "L::produto,",
-            "new_totalMes": "(\"mb_strtoupper(L::totalMes)\")"
+            "new_totalMes": "(mb_strtoupper(L::totalMes))"
         }
     }
 }
