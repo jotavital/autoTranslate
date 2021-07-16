@@ -3,6 +3,7 @@
         "new_home": "> <?= L::home ?><",
         "new_buscar": "><?= L::buscar ?><",
         "new_produto": "><?= L::produto ?><",
+        "new_produtos": "><?= L::produtos ?><",
         "new_todos": "><?= L::todos ?><",
         "new_status": "><?= L::status ?><",
         "new_entrega": "><?= L::entrega ?><",
