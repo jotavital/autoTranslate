@@ -118,7 +118,7 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
 }
 
 if (file_put_contents($caminhoArquivo, $textoDoArquivo) != false) {
-    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso! " . $contSubstituidas . " expressões foram substituídas automaticamente</p>";
+    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso! " . $contSubstituidas . " expressões foram substituídas automaticamente.</p>";
 } else {
     $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao escrever no arquivo " . $nomeArquivoComExtensao . "! Verifique as permissões da pasta destino</p>";
 }
