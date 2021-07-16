@@ -4,14 +4,14 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
-$dir = (__DIR__ . "/../../applications/system/lang/portugues-brasil/");
+$caminhoArquivoIni = (__DIR__ . "/../../applications/system/lang/portugues-brasil/");
 
 $nomeArquivoComExtensao = $_POST['nomeArquivo'];
 $nomeArquivo = explode(".php", $_POST['nomeArquivo']);
 
 //verifica permissoes da pasta
 
-if (is_writable($dir)) {
+if (is_writable($caminhoArquivoIni)) {
     $_SESSION['msg'] .= "<br><p class='p-green'>O diretório lang tem as permissões necessárias!</p>";
 } else {
     $_SESSION['msg'] .= "<br><p class='p-red'>O diretório lang NÃO tem as permissões necessárias!</p>";
@@ -20,10 +20,14 @@ if (is_writable($dir)) {
 //cria arquivo ini
 $nomeArquivoIni = "pt-br_" . $nomeArquivo[0] . ".ini";
 
-if (file_put_contents($dir . $nomeArquivoIni, FILE_APPEND) != false) {
-    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoIni . " criado com sucesso!</p>";
-} else {
-    $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao criar arquivo " . $nomeArquivoIni . "!</p>";
+if(!file_exists($caminhoArquivoIni . $nomeArquivoIni)){
+    if (file_put_contents($caminhoArquivoIni . $nomeArquivoIni, FILE_APPEND) != false) {
+        $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoIni . " criado com sucesso!</p>";
+    } else {
+        $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao criar arquivo " . $nomeArquivoIni . "!</p>";
+    }
+}else{
+    $_SESSION['msg'] .= "<br><p class='p-red'>Arquivo " . $nomeArquivoIni . " não foi criado pois já existe!</p>";
 }
 
 //substitui as palavras pelas label no arquivo destino
