@@ -55,9 +55,12 @@
         "new_formaPagamento": "><?= L::formaDePagamento ?><",
         "new_selecione3pontos": "><?= L::selecione ?>...<",
         "new_filtrarPor": "><?= L::filtrarPor ?><",
+        "new_filtrarPor2": "><?= L::filtrarPor ?><",
         "new_dataCriacaoOrcamento": "><?= L::dataDeCriacaoDoOrcamento ?><",
         "new_dataConversaoContrato": "><?= L::dataDeConversaoParaContrato ?><",
-        "new_nome": "><?= L::nome ?><"
+        "new_nome": "><?= L::nome ?><",
+        "new_dataParcela": "><?= L::dataDaParcela ?><",
+        "new_dataQuitacao": "><?= L::dataDeQuitacao ?><"
     },
     "doubleQuoted": {
         "inHTML": {

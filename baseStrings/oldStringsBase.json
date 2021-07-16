@@ -55,9 +55,12 @@
         "old_formaPagamento": ">Forma de Pagamento<",
         "old_selecione3pontos": ">Selecione...<",
         "old_filtrarPor": ">Filtrar por<",
+        "old_filtrarPor2": ">Filtrar Por<",
         "old_dataCriacaoOrcamento": ">Data de criação do orçamento<",
         "old_dataConversaoContrato": ">Data de conversão para contrato<",
-        "old_nome": ">Nome<"
+        "old_nome": ">Nome<",
+        "old_dataParcela": ">Data da Parcela<",
+        "old_dataQuitacao": ">Data de Quitação<"
     },
     "doubleQuoted": {
         "inHTML": {
