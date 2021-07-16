@@ -50,8 +50,6 @@ if(($newStringsJson = file_get_contents("../baseStrings/newStringsBase.json", FI
     $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao ler o arquivo newStringsBase.json!</p>";
 }
 
-$contSubstituidas = 0;
-
 //substitui as simpleLabels
 foreach ($oldStringsDecoded->simpleLabel as $nomePropriedadeOld => $palavraOld) {
     $nomePropriedadeOld = explode("old_", $nomePropriedadeOld);
@@ -78,7 +76,7 @@ foreach ($oldStringsDecoded->doubleQuoted->inHTML as $nomePropriedadeOld => $pal
         $nomePropriedadeNew = explode("new_", $nomePropriedadeNew);
 
         if ($nomePropriedadeNew == $nomePropriedadeOld) {
-            if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo, $contSubstituidas)) != null){
+            if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo)) != null){
                 
             }else{
                 $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
@@ -96,7 +94,7 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
         $nomePropriedadeNew = explode("new_", $nomePropriedadeNew);
 
         if ($nomePropriedadeNew == $nomePropriedadeOld) {
-            if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo, $contSubstituidas)) != null){
+            if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo)) != null){
                 
             }else{
                 $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
