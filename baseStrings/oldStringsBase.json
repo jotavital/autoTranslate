@@ -93,7 +93,8 @@
             "old_cliente": "\"Cliente\",",
             "old_formaDePagamento": "\"Forma de Pagamento\",",
             "old_valor": "\"Valor\",",
-            "old_frete": "\"Frete\","
+            "old_frete": "\"Frete\",",
+            "old_produto": "\"Produto\","
         }
     }
 }
