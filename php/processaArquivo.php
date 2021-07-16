@@ -17,6 +17,14 @@ if (is_writable($caminhoArquivoIni)) {
     $_SESSION['msg'] .= "<br><p class='p-red'>O diretório lang NÃO tem as permissões necessárias!</p>";
 }
 
+$pastaAdmin = __DIR__ . "/../../applications/system/admin/";
+
+if (is_writable($pastaAdmin)) {
+    $_SESSION['msg'] .= "<br><p class='p-green'>O diretório admin tem as permissões necessárias!</p>";
+} else {
+    $_SESSION['msg'] .= "<br><p class='p-red'>O diretório admin NÃO tem as permissões necessárias! Conceda as permissões.</p>";
+}
+
 //cria arquivo ini
 $nomeArquivoIni = "pt-br_" . $nomeArquivo[0] . ".ini";
 
@@ -107,14 +115,6 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
             }
         }
     }
-}
-
-$pastaAdmin = __DIR__ . "/../../applications/system/admin/";
-
-if (is_writable($pastaAdmin)) {
-    $_SESSION['msg'] .= "<br><p class='p-green'>O diretório admin tem as permissões necessárias!</p>";
-} else {
-    $_SESSION['msg'] .= "<br><p class='p-red'>O diretório admin NÃO tem as permissões necessárias! Conceda as permissões.</p>";
 }
 
 if (file_put_contents($caminhoArquivo, $textoDoArquivo) != false) {
