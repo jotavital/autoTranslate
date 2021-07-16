@@ -50,6 +50,8 @@ if(($newStringsJson = file_get_contents("../baseStrings/newStringsBase.json", FI
     $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao ler o arquivo newStringsBase.json!</p>";
 }
 
+$contSubstituidas = 0;
+
 //substitui as simpleLabels
 foreach ($oldStringsDecoded->simpleLabel as $nomePropriedadeOld => $palavraOld) {
     $nomePropriedadeOld = explode("old_", $nomePropriedadeOld);
@@ -59,7 +61,7 @@ foreach ($oldStringsDecoded->simpleLabel as $nomePropriedadeOld => $palavraOld) 
 
         if ($nomePropriedadeNew == $nomePropriedadeOld) {
             if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo)) != null){
-                $_SESSION['msg'] .= "<br><p class='p-blue'>Consegui substituir a expressão " . $palavraOld . "</p>";
+                $contSubstituidas++;
             }else{
                 $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
@@ -77,7 +79,7 @@ foreach ($oldStringsDecoded->doubleQuoted->inHTML as $nomePropriedadeOld => $pal
 
         if ($nomePropriedadeNew == $nomePropriedadeOld) {
             if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo)) != null){
-                $_SESSION['msg'] .= "<br><p class='p-blue'>Consegui substituir a expressão " . $palavraOld . "</p>";
+                $contSubstituidas++;
             }else{
                 $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
@@ -95,7 +97,7 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
 
         if ($nomePropriedadeNew == $nomePropriedadeOld) {
             if(($textoDoArquivo = str_replace($palavraOld, $palavraNew, $textoDoArquivo)) != null){
-                $_SESSION['msg'] .= "<br><p class='p-blue'>Consegui substituir a expressão " . $palavraOld . "</p>";
+                $contSubstituidas++;
             }else{
                 $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
@@ -112,7 +114,7 @@ if(is_writable($pastaAdmin)){
 }
 
 if(file_put_contents($caminhoArquivo, $textoDoArquivo) != false){
-    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso!</p>";
+    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso! " . $contSubstituidas . " expressões foram substituídas</p>";
 }else{
     $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao escrever no arquivo " . $nomeArquivoComExtensao . "!</p>";
 }
