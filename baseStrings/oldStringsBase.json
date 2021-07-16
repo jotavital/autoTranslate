@@ -63,7 +63,9 @@
         "old_dataParcela": ">Data da Parcela<",
         "old_dataQuitacao": ">Data de Quitação<",
         "old_data": ">Data<",
-        "old_acao": ">Ação<"
+        "old_acao": ">Ação<",
+        "old_tipo": ">Tipo<",
+        "old_sair": ">Sair<"
     },
     "doubleQuoted": {
         "inHTML": {

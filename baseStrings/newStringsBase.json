@@ -63,7 +63,9 @@
         "new_dataParcela": "><?= L::dataDaParcela ?><",
         "new_dataQuitacao": "><?= L::dataDeQuitacao ?><",
         "new_data": "><?= L::data ?><",
-        "new_acao": "><?= L::acao ?><"
+        "new_acao": "><?= L::acao ?><",
+        "new_tipo": "><?= L::tipo ?><",
+        "new_sair": "><?= L::sair ?><"
     },
     "doubleQuoted": {
         "inHTML": {
