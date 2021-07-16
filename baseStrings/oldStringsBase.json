@@ -97,7 +97,8 @@
             "old_formaDePagamento": "\"Forma de Pagamento\",",
             "old_valor": "\"Valor\",",
             "old_frete": "\"Frete\",",
-            "old_produto": "\"Produto\","
+            "old_produto": "\"Produto\",",
+            "old_totalMes": "(\"TOTAL MÊS\")"
         }
     }
 }
