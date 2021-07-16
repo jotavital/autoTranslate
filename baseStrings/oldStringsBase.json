@@ -61,7 +61,9 @@
         "old_dataConversaoContrato": ">Data de conversão para contrato<",
         "old_nome": ">Nome<",
         "old_dataParcela": ">Data da Parcela<",
-        "old_dataQuitacao": ">Data de Quitação<"
+        "old_dataQuitacao": ">Data de Quitação<",
+        "old_data": ">Data<",
+        "old_acao": ">Ação<"
     },
     "doubleQuoted": {
         "inHTML": {

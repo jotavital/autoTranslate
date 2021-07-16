@@ -61,7 +61,9 @@
         "new_dataConversaoContrato": "><?= L::dataDeConversaoParaContrato ?><",
         "new_nome": "><?= L::nome ?><",
         "new_dataParcela": "><?= L::dataDaParcela ?><",
-        "new_dataQuitacao": "><?= L::dataDeQuitacao ?><"
+        "new_dataQuitacao": "><?= L::dataDeQuitacao ?><",
+        "new_data": "><?= L::data ?><",
+        "new_acao": "><?= L::acao ?><"
     },
     "doubleQuoted": {
         "inHTML": {
