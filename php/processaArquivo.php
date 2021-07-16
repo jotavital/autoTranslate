@@ -64,8 +64,6 @@ foreach ($oldStringsDecoded->simpleLabel as $nomePropriedadeOld => $palavraOld) 
 
             if ($count > 0) {
                 $contSubstituidas++;
-            } else {
-                $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
         }
     }
@@ -84,8 +82,6 @@ foreach ($oldStringsDecoded->doubleQuoted->inHTML as $nomePropriedadeOld => $pal
 
             if ($count > 0) {
                 $contSubstituidas++;
-            } else {
-                $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
         }
     }
@@ -104,8 +100,6 @@ foreach ($oldStringsDecoded->doubleQuoted->inPHP as $nomePropriedadeOld => $pala
 
             if ($count > 0) {
                 $contSubstituidas++;
-            } else {
-                $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao substituir a expressão " . $palavraOld . "</p>";
             }
         }
     }
@@ -116,13 +110,13 @@ $pastaAdmin = __DIR__ . "/../../applications/system/admin/";
 if (is_writable($pastaAdmin)) {
     $_SESSION['msg'] .= "<br><p class='p-green'>O diretório admin tem as permissões necessárias!</p>";
 } else {
-    $_SESSION['msg'] .= "<br><p class='p-red'>O diretório admin NÃO tem as permissões necessárias!</p>";
+    $_SESSION['msg'] .= "<br><p class='p-red'>O diretório admin NÃO tem as permissões necessárias! Conceda as permissões.</p>";
 }
 
 if (file_put_contents($caminhoArquivo, $textoDoArquivo) != false) {
-    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso! " . $contSubstituidas . " expressões foram verificadas</p>";
+    $_SESSION['msg'] .= "<br><p class='p-green'>Arquivo " . $nomeArquivoComExtensao . " finalizado com sucesso! " . $contSubstituidas . " expressões foram substituídas automaticamente</p>";
 } else {
-    $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao escrever no arquivo " . $nomeArquivoComExtensao . "!</p>";
+    $_SESSION['msg'] .= "<br><p class='p-red'>Erro ao escrever no arquivo " . $nomeArquivoComExtensao . "! Verifique as permissões da pasta destino</p>";
 }
 
 header("Location: index.php");
