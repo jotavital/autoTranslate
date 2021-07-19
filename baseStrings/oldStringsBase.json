@@ -121,7 +121,19 @@
             "old_endereco": "(\"Endereço\")",
             "old_registroNaoEncontrado": "=\"Registro não encontrado!\";",
             "old_sim": "(\"Sim\")",
-            "old_nao": "(\"Não\")"
+            "old_nao": "(\"Não\")",
+            "old_janeiro2": "JANEIRO",  
+            "old_fevereiro2": "FEVEREIRO",
+            "old_marco2": "MARÇO",    
+            "old_abril2": "ABRIL",    
+            "old_maio2":"MAIO",
+            "old_junho2": "JUNHO",    
+            "old_julho2": "JULHO",    
+            "old_agosto2": "AGOSTO",   
+            "old_setembro2": "SETEMBRO", 
+            "old_outubro2": "OUTUBRO",  
+            "old_novembro2": "NOVEMBRO", 
+            "old_dezembro2": "DEZEMBRO"
         }
     }
 }
