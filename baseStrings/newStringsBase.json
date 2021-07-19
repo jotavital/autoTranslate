@@ -122,18 +122,18 @@
             "new_registroNaoEncontrado": "= L::registroNaoEncontrado . \"!\";",
             "new_sim": "(L::sim)",
             "new_nao": "(L::nao)",
-            "old_janeiro2":     "strtoupper(L::janeiro)",
-            "old_fevereiro2":   "strtoupper(L::fevereiro)",
-            "old_marco2":       "strtoupper(L::marco)",
-            "old_abril2":       "strtoupper(L::abril)",
-            "old_maio2":        "strtoupper(L::maio)",
-            "old_junho2":       "strtoupper(L::junho)",
-            "old_julho2":       "strtoupper(L::julho)",
-            "old_agosto2":      "strtoupper(L::agosto)",
-            "old_setembro2":    "strtoupper(L::setembro)",
-            "old_outubro2":     "strtoupper(L::outubro)",
-            "old_novembro2":    "strtoupper(L::novembro)",
-            "old_dezembro2":    "strtoupper(L::dezembro)"
+            "new_janeiro2":     "strtoupper(L::janeiro)",
+            "new_fevereiro2":   "strtoupper(L::fevereiro)",
+            "new_marco2":       "strtoupper(L::marco)",
+            "new_abril2":       "strtoupper(L::abril)",
+            "new_maio2":        "strtoupper(L::maio)",
+            "new_junho2":       "strtoupper(L::junho)",
+            "new_julho2":       "strtoupper(L::julho)",
+            "new_agosto2":      "strtoupper(L::agosto)",
+            "new_setembro2":    "strtoupper(L::setembro)",
+            "new_outubro2":     "strtoupper(L::outubro)",
+            "new_novembro2":    "strtoupper(L::novembro)",
+            "new_dezembro2":    "strtoupper(L::dezembro)"
         }
     }
 }
