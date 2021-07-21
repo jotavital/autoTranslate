@@ -74,7 +74,9 @@
         "old_celular": ">Celular<",
         "old_telefone": ">Telefone<",
         "old_endereco": ">Endereço<",
-        "old_email": ">E-mail<"
+        "old_email": ">E-mail<",
+        "old_limpar": ">Limpar<",
+        "old_confirmar": ">Confirmar<"
     },
     "doubleQuoted": {
         "inHTML": {

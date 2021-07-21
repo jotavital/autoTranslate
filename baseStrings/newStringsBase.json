@@ -74,7 +74,9 @@
         "new_celular": "><?= L::celular ?><",
         "new_telefone": "><?= L::telefone ?><",
         "new_endereco": "><?= L::endereco ?><",
-        "new_email": "><?= L::email ?><"
+        "new_email": "><?= L::email ?><",
+        "new_limpar": "><?= L::limpar ?><",
+        "new_confirmar": "><?= L::confirmar ?><"
     },
     "doubleQuoted": {
         "inHTML": {
