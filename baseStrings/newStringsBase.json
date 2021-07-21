@@ -85,7 +85,8 @@
             "new_buscarProdutos": "placeholder=\"<?= L::buscarProdutos ?>\"",
             "new_entrega": "placeholder=\"<?= L::entrega ?>\"",
             "new_devolucao": "placeholder=\"<?= L::devolucao ?>\"",
-            "new_ano": "placeholder=\"<?= L::ano ?>\""
+            "new_ano": "placeholder=\"<?= L::ano ?>\"",
+            "new_telefone": "placeholder=\"<?= L::telefone ?>\""
         },
         "inPHP": {
             "new_orcamento": "L::orcamento",

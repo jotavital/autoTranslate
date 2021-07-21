@@ -85,7 +85,8 @@
             "old_buscarProdutos": "placeholder=\"Buscar Produtos\"",
             "old_entrega": "placeholder=\"Entrega\"",
             "old_devolucao": "placeholder=\"Devolução\"",
-            "old_ano": "placeholder=\"Ano\""
+            "old_ano": "placeholder=\"Ano\"",
+            "old_telefone": "placeholder=\"Telefone\""
         },
         "inPHP": {
             "old_orcamento": "\"Orçamento\"",
