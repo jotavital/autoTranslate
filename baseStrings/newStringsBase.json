@@ -76,7 +76,10 @@
         "new_endereco": "><?= L::endereco ?><",
         "new_email": "><?= L::email ?><",
         "new_limpar": "><?= L::limpar ?><",
-        "new_confirmar": "><?= L::confirmar ?><"
+        "new_confirmar": "><?= L::confirmar ?><",
+        "new_cpf": "><?= strtoupper(L::cpf) ?><",
+        "new_valor": "><?= L::valor ?><",
+        "new_total": "><?= L::total ?><"
     },
     "doubleQuoted": {
         "inHTML": {

@@ -76,7 +76,10 @@
         "old_endereco": ">Endereço<",
         "old_email": ">E-mail<",
         "old_limpar": ">Limpar<",
-        "old_confirmar": ">Confirmar<"
+        "old_confirmar": ">Confirmar<",
+        "old_cpf": ">CPF<",
+        "old_valor": ">Valor<",
+        "old_total": ">Total<"
     },
     "doubleQuoted": {
         "inHTML": {
