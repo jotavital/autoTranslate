@@ -79,7 +79,8 @@
         "old_confirmar": ">Confirmar<",
         "old_cpf": ">CPF<",
         "old_valor": ">Valor<",
-        "old_total": ">Total<"
+        "old_total": ">Total<",
+        "old_excluir": ">Excluir<"
     },
     "doubleQuoted": {
         "inHTML": {

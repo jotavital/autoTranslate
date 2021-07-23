@@ -79,7 +79,8 @@
         "new_confirmar": "><?= L::confirmar ?><",
         "new_cpf": "><?= strtoupper(L::cpf) ?><",
         "new_valor": "><?= L::valor ?><",
-        "new_total": "><?= L::total ?><"
+        "new_total": "><?= L::total ?><",
+        "new_excluir": "><?= L::excluir ?><"
     },
     "doubleQuoted": {
         "inHTML": {
