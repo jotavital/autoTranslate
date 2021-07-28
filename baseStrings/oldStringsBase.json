@@ -140,7 +140,8 @@
             "old_setembro2": "\"SETEMBRO\"", 
             "old_outubro2": "\"OUTUBRO\"",  
             "old_novembro2": "\"NOVEMBRO\"", 
-            "old_dezembro2": "\"DEZEMBRO\""
+            "old_dezembro2": "\"DEZEMBRO\"",
+            "old_itemSalvoComSucesso": "\"Item salvo com sucesso!\";"
         }
     }
 }
