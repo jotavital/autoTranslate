@@ -81,7 +81,9 @@
         "old_valor": ">Valor<",
         "old_total": ">Total<",
         "old_excluir": ">Excluir<",
-        "old_clienteEmpresa": ">Cliente/Empresa<"
+        "old_clienteEmpresa": ">Cliente/Empresa<",
+        "old_descricao": ">Descrição<",
+        "old_pago": ">Pago<"
     },
     "doubleQuoted": {
         "inHTML": {
