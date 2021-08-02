@@ -80,7 +80,8 @@
         "new_cpf": "><?= strtoupper(L::cpf) ?><",
         "new_valor": "><?= L::valor ?><",
         "new_total": "><?= L::total ?><",
-        "new_excluir": "><?= L::excluir ?><"
+        "new_excluir": "><?= L::excluir ?><",
+        "new_clienteEmpresa": ">Cliente/Empresa<"
     },
     "doubleQuoted": {
         "inHTML": {
@@ -127,8 +128,8 @@
             "new_celular": ", L::celular,",
             "new_endereco": "(L::endereco)",
             "new_registroNaoEncontrado": "= L::registroNaoEncontrado . \"!\";",
-            "new_sim": "(L::sim)",
-            "new_nao": "(L::nao)",
+            "new_sim": "L::sim",
+            "new_nao": "L::nao",
             "new_janeiro2":     "strtoupper(L::janeiro)",
             "new_fevereiro2":   "strtoupper(L::fevereiro)",
             "new_marco2":       "strtoupper(L::marco)",
@@ -141,7 +142,8 @@
             "new_outubro2":     "strtoupper(L::outubro)",
             "new_novembro2":    "strtoupper(L::novembro)",
             "new_dezembro2":    "strtoupper(L::dezembro)",
-            "new_itemSalvoComSucesso": "L::itemSalvoComSucesso;"
+            "new_itemSalvoComSucesso": "L::itemSalvoComSucesso;",
+            "new_parcelaLocacao": "L::parcelaDeLocacao"
         }
     }
 }
