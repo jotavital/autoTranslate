@@ -143,7 +143,8 @@
             "new_novembro2":    "strtoupper(L::novembro)",
             "new_dezembro2":    "strtoupper(L::dezembro)",
             "new_itemSalvoComSucesso": "L::itemSalvoComSucesso;",
-            "new_parcelaLocacao": "L::parcelaDeLocacao"
+            "new_parcelaLocacao": "L::parcelaDeLocacao",
+            "new_pendente": "L::pendente"
         }
     }
 }
