@@ -81,7 +81,7 @@
         "new_valor": "><?= L::valor ?><",
         "new_total": "><?= L::total ?><",
         "new_excluir": "><?= L::excluir ?><",
-        "new_clienteEmpresa": ">Cliente/Empresa<"
+        "new_clienteEmpresa": "><?= L::cliente ?>/<?= L::empresa ?><"
     },
     "doubleQuoted": {
         "inHTML": {
